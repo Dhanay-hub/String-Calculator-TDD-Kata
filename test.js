@@ -12,6 +12,10 @@ test('Should return the sum if length is more than 1', () => {
     expect(add("1,2,3")).toBe(6);
 });
 
+test('Should return the sum if length is more than 1', () => {
+    expect(add("1,2\n3,4")).toBe(10);
+});
+
 test('Should throw an error if there is a negative number', () => {
     try {
         add("1,-2,-3");

@@ -16,6 +16,10 @@ test('Should return the sum if length is more than 1', () => {
     expect(add("1,2\n3,4")).toBe(10);
 });
 
+test('Should return the sum if length is more than 1 and custom delimeter', () => {
+    expect(add("//;\n1;2;4;6" )).toBe(13);
+});
+
 test('Should throw an error if there is a negative number', () => {
     try {
         add("1,-2,-3");

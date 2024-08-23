@@ -1,0 +1,18 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tdd.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dhanay-hub:Dhanay-hub/String-Calculator-TDD-Kata.git"
+  },
+  "author": "Dhanay Mehta",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

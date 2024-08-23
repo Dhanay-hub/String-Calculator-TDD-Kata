@@ -8,5 +8,4 @@ const add = (members)  => {
     return numArray.reduce((result, e) => result + +e, 0);
 }
 
-console.log(add("1,2\n3"))
-console.log(add("1\n2\n4"))
+module.exports = add;

@@ -4,7 +4,7 @@ const add = (members)  => {
     const defaultDelimiters = /,|\n/;
     const  numArray = members.split(defaultDelimiters);
     if(numArray.some( x => x < 0 ))
-        throw new Error("Array contains a negative number");
+        throw new Error("Array contains a negative number which is not allowed");
     return numArray.reduce((result, e) => result + +e, 0);
 }
 
